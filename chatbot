@@ -1,0 +1,4 @@
+from .responses import generate_response
+
+def get_response(user_input):
+    return generate_response(user_input)
